@@ -1,0 +1,71 @@
+html {
+  font-size: calc(10px + 0.5vw) !important;
+}
+
+body {
+  height:100vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9rem !important;
+}
+
+.navbar-ref {
+  color: #808080;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  list-style-position: outside;
+  list-style-type: none;
+  outline-width: 0px;
+  text-align: left;
+  text-decoration-color: rgb(128, 128, 128);
+}
+
+.navbar-ref:hover, .navbar-ref:focus {
+  color: rgb(41, 4, 4);
+}
+
+.navbar-ref.active {
+  color: #0000a3;
+}
+
+.navbar-ul {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: fixed;
+    right:0;
+    z-index: 99;
+}
+
+.list-inline {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-around;
+  margin:20px 0;
+  width: 40%;
+}
+
+@media only screen and (max-width: 992px) {
+  .list-inline {
+    width: 100%;
+  }
+
+  .navbar-ref {
+    color: #808080;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+  }
+
+}
+
+a::selection,
+span::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+
+a::selection,
+span::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nicolas Schlegel</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--fonts-->
+    <link rel='stylesheet'
+          href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Source+Code+Pro:400,500,600,700'
+          type='text/css' media='screen'/>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:900" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="/static/css/base.css">
+
+    
+<link type="text/css" rel="stylesheet" href="/static/css/project.css">
+<link type="text/css" rel="stylesheet" href="/static/css/chip.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div class="navbar-ul">
+    <ul id="navbar-list" class="list-inline">
+        <li><a class="navbar-ref" href="/">HOME</a></li>
+        <li><a class="navbar-ref" href="/cv.html">CV</a></li>
+        <li><a class="navbar-ref" href="/projects.html">PROJECTS</a></li>
+        <!-- <li><a class="navbar-ref" href="/reading">Reading</a></li> -->
+    </ul>
+</div>
+
+
+
+<div class="container">
+    <div class="wrapper fixed-wrapper">
+        
+        
+        <div>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false" ;>
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    
+                    
+                    <li data-target="#myCarousel" data-slide-to="loop.index0"
+                        class="active"></li>
+                    
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    
+                    
+                    <div class="item active">
+                        <img src="/static/projects/grad-cam/result_example.png" alt="project-photo" style="width:100%;">
+                    </div>
+                    
+                </div>
+
+                <!-- Left and right controls -->
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="wrapper scroll-wrapper">
+        <div class="heading">
+            <div class="filler" style="min-height:22vh;"></div>
+            <div class="title">Resnet GradCam</div>
+
+            <div class="date">
+                February 2022
+
+                
+                
+                
+            </div>
+
+
+            <div class="md-chips">
+                
+                <div class="md-chip md-chip-clickable"><a class="md-chip-link" href="/projects?tags=Data Science">Data Science</a>
+                </div>
+                
+            </div>
+        </div>
+        <div class="content"><div>
+    <div>
+        <span>Where do a neural network looks at when predicting that a cat is a cat and a dog is a dog ?
+            The answer is <a href="https://arxiv.org/abs/1610.02391">this article</a>.
+            </span>
+
+        <span>The main idea here is to inspect the value of the gradient flowing in the last convolution layer.
+            With a heatmap on this data, we highlight zones of the pictures that allowed the neural network to do its prediction.
+        </span>
+
+        <span>This academic work was carried out in February 2021, for the "Deep Learning in practice" class in MVA Paris-Saclay Master.
+        </span>
+
+    </div>
+</div></div>
+    </div>
+
+</div>
+
+</body>
+
+<script src="static/js/base.js"></script>
+</html>
