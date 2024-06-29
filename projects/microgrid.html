@@ -17,6 +17,12 @@
     
 <link type="text/css" rel="stylesheet" href="/static/css/project.css">
 <link type="text/css" rel="stylesheet" href="/static/css/chip.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -122,16 +128,19 @@
                 <div class="md-chip md-chip-clickable"><a class="md-chip-link" href="/projects?tags=Optimisation">Optimisation</a>
                 </div>
                 
-                <div class="md-chip md-chip-clickable"><a class="md-chip-link" href="/projects?tags=Data-Science">Data-Science</a>
+                <div class="md-chip md-chip-clickable"><a class="md-chip-link" href="/projects?tags=Data Science">Data Science</a>
+                </div>
+                
+                <div class="md-chip md-chip-clickable"><a class="md-chip-link" href="/projects?tags=Software development">Software development</a>
                 </div>
                 
             </div>
         </div>
         <div class="content"><div>
     <div>
-        <span>This project is an academic project carried out during the second semester of 2019-2020. The goal is to manage a battery in a microgrid fitted with a solar pannel.</span>
+        <span>This academic project was carried out during the second semester of 2019-2020. The goal is to manage a battery in a microgrid fitted with a solar pannel.</span>
             
-        <span>This project uses the <b>command predictive control</b>. </span>
+        <span>This approach is based the <b>command predictive control</b> theory. </span>
             
         <span>At every step: </br>
             &nbsp&nbsp<b>1.</b> we predict the net demand (difference between the demand and the production)</br>
@@ -147,5 +156,7 @@
 
 </body>
 
-<script src="static/js/base.js"></script>
+<!-- <script src="static/js/base.js"></script> -->
+<script src="/static/js/base.js"></script> 
+
 </html>
